@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T12:34:25.151Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="0723lsnf0GON8S2BifPN" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T14:15:42.774Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="JQ8-W-ZZyySvXQdTo4h0" version="15.6.6" type="github">
   <diagram id="YWG_YJwOWfs3mjxEgBmB" name="第 1 页">
-    <mxGraphModel dx="1422" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="552" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,11 +127,11 @@
         <mxCell id="8dy6UaJ0SXX49K8TvFF3-47" value="&lt;font&gt;&lt;font style=&quot;font-size: 30px&quot;&gt;扩容&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;labelBackgroundColor=default;fontSize=2;fontColor=#007FFF;" parent="1" vertex="1">
           <mxGeometry x="260" y="540" width="80" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="8dy6UaJ0SXX49K8TvFF3-49" value="&lt;font style=&quot;font-size: 16px&quot;&gt;table[15]红色节点表示hash值以 0 1111 结尾，扩容后还在table[15]的位置&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;labelBackgroundColor=default;fontSize=20;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="40" y="630" width="530" height="30" as="geometry" />
+        <mxCell id="8dy6UaJ0SXX49K8TvFF3-49" value="&lt;font style=&quot;font-size: 16px&quot; color=&quot;#ff6666&quot;&gt;table[15]红色节点表示hash值以 0 1111 结尾，扩容后还在table[15]的位置&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;labelBackgroundColor=default;fontSize=20;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="42" y="630" width="526" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8dy6UaJ0SXX49K8TvFF3-51" value="&lt;font style=&quot;font-size: 16px&quot;&gt;table[15]红色节点表示hash值以 1 1111 结尾，扩容后在 原桶位下标 + 原table长度 的位置，即table[31]&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;labelBackgroundColor=default;fontSize=20;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="40" y="670" width="740" height="30" as="geometry" />
+        <mxCell id="8dy6UaJ0SXX49K8TvFF3-51" value="&lt;font style=&quot;font-size: 16px&quot;&gt;table[15]青色节点表示hash值以 1 1111 结尾，扩容后在 原桶位下标 + 原table长度 的位置，即table[31]&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;labelBackgroundColor=default;fontSize=20;fontColor=#00994D;" parent="1" vertex="1">
+          <mxGeometry x="44" y="670" width="732" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
